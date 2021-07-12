@@ -1,0 +1,383 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "the user is on the home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-07-12T14:11:41.066Z",
+        "line": 7,
+        "name": "verifying modulus PERSONAL",
+        "description": "",
+        "id": "navigation-menu;verifying-modulus-personal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8388000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (1b08e42e0f5f3e8577eae4af4aaa0224)] -\u003e xpath: //li[@id\u003d\u0027menu-item-129\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iMacdeBakhtiar\u0027, ip: \u0027fe80:0:0:0:1cc3:4c0d:dc90:4f58%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/x7/v8p4cyw51s9...}, goog:chromeOptions: {debuggerAddress: localhost:65087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b08e42e0f5f3e8577eae4af4aaa0224\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.lareau.utilities.BrowserUtils.waitForClickAbility(BrowserUtils.java:83)\n\tat com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_personal_tabs(NavigationMenu.java:23)\n\tat ✽.the user clicks the PERSONAL tabs(file:///Users/cybertek/IdeaProjects/LareauAsurance/src/test/resources/features/NavigationMenu.feature:9)\n",
+              "duration": 5418000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the user clicks the PERSONAL tabs",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_personal_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should see the url contains personal",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.user_should_see_the_url_contains_personal()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "the user is on the home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-07-12T14:11:55.043Z",
+        "line": 12,
+        "name": "verifying modulus COMMERCIAL",
+        "description": "",
+        "id": "navigation-menu;verifying-modulus-commercial",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1517000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (1b08e42e0f5f3e8577eae4af4aaa0224)] -\u003e xpath: //li[@id\u003d\u0027menu-item-116\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iMacdeBakhtiar\u0027, ip: \u0027fe80:0:0:0:1cc3:4c0d:dc90:4f58%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/x7/v8p4cyw51s9...}, goog:chromeOptions: {debuggerAddress: localhost:65087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b08e42e0f5f3e8577eae4af4aaa0224\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.lareau.utilities.BrowserUtils.waitForClickAbility(BrowserUtils.java:83)\n\tat com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_commercial_tabs(NavigationMenu.java:36)\n\tat ✽.the user clicks the COMMERCIAL tabs(file:///Users/cybertek/IdeaProjects/LareauAsurance/src/test/resources/features/NavigationMenu.feature:14)\n",
+              "duration": 5531000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "the user clicks the COMMERCIAL tabs",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_commercial_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user should see the url contains commercial",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.user_should_see_the_url_contains_commercial()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "the user is on the home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-07-12T14:12:02.102Z",
+        "line": 17,
+        "name": "verifying CLAIMS",
+        "description": "",
+        "id": "navigation-menu;verifying-claims",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1737000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.lareau.utilities.BrowserUtils.waitForClickAbility(BrowserUtils.java:87)\n\tat com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_claims_tabs(NavigationMenu.java:46)\n\tat ✽.the user clicks the CLAIMS tabs(file:///Users/cybertek/IdeaProjects/LareauAsurance/src/test/resources/features/NavigationMenu.feature:19)\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the user clicks the CLAIMS tabs",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_claims_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user should see the url contains claims",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.user_should_see_the_url_contains_claims()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "the user is on the home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-07-12T14:12:03.850Z",
+        "line": 22,
+        "name": "verifying WHY LAREAU",
+        "description": "",
+        "id": "navigation-menu;verifying-why-lareau",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (1b08e42e0f5f3e8577eae4af4aaa0224)] -\u003e xpath: //li[@id\u003d\u0027menu-item-810\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iMacdeBakhtiar\u0027, ip: \u0027fe80:0:0:0:1cc3:4c0d:dc90:4f58%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/x7/v8p4cyw51s9...}, goog:chromeOptions: {debuggerAddress: localhost:65087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b08e42e0f5f3e8577eae4af4aaa0224\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.lareau.utilities.BrowserUtils.waitForClickAbility(BrowserUtils.java:83)\n\tat com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_why_lareau_tabs(NavigationMenu.java:55)\n\tat ✽.the user clicks the WHY LAREAU tabs(file:///Users/cybertek/IdeaProjects/LareauAsurance/src/test/resources/features/NavigationMenu.feature:24)\n",
+              "duration": 5330000000,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "the user clicks the WHY LAREAU tabs",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_why_lareau_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user should see the url contains why-lareau",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.user_should_see_the_url_contains_why_lareau()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "the user is on the home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-07-12T14:12:10.668Z",
+        "line": 27,
+        "name": "verifying BLOG",
+        "description": "",
+        "id": "navigation-menu;verifying-blog",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1742000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (1b08e42e0f5f3e8577eae4af4aaa0224)] -\u003e xpath: //li[@id\u003d\u0027menu-item-163\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iMacdeBakhtiar\u0027, ip: \u0027fe80:0:0:0:1cc3:4c0d:dc90:4f58%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/x7/v8p4cyw51s9...}, goog:chromeOptions: {debuggerAddress: localhost:65087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b08e42e0f5f3e8577eae4af4aaa0224\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.lareau.utilities.BrowserUtils.waitForClickAbility(BrowserUtils.java:83)\n\tat com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_blog_tabs(NavigationMenu.java:64)\n\tat ✽.the user clicks the BLOG tabs(file:///Users/cybertek/IdeaProjects/LareauAsurance/src/test/resources/features/NavigationMenu.feature:29)\n",
+              "duration": 5341000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "the user clicks the BLOG tabs",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_blog_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user should see the url contains blog",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.user_should_see_the_url_contains_blog()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "the user is on the home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-07-12T14:12:17.759Z",
+        "line": 32,
+        "name": "verifying CONTACT US",
+        "description": "",
+        "id": "navigation-menu;verifying-contact-us",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1398000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (1b08e42e0f5f3e8577eae4af4aaa0224)] -\u003e xpath: //li[@id\u003d\u0027menu-item-163\u0027]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iMacdeBakhtiar\u0027, ip: \u0027fe80:0:0:0:1cc3:4c0d:dc90:4f58%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/x7/v8p4cyw51s9...}, goog:chromeOptions: {debuggerAddress: localhost:65087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b08e42e0f5f3e8577eae4af4aaa0224\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.lareau.utilities.BrowserUtils.waitForClickAbility(BrowserUtils.java:83)\n\tat com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_contact_us_tabs(NavigationMenu.java:74)\n\tat ✽.the user clicks the CONTACT US tabs(file:///Users/cybertek/IdeaProjects/LareauAsurance/src/test/resources/features/NavigationMenu.feature:34)\n",
+              "duration": 5361000000,
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "the user clicks the CONTACT US tabs",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.the_user_clicks_the_contact_us_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user should see the url contains contact-us",
+            "match": {
+              "location": "com.lareau.step_definitions.NavigationMenu.user_should_see_the_url_contains_contact_us()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation Menu",
+    "description": "",
+    "id": "navigation-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NavigationMenu.feature",
+    "tags": [
+      {
+        "name": "@vip",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
